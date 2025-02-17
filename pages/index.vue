@@ -3,6 +3,8 @@
     <HomeHero/>
     <HomeDiscover/>
     <HomeDiscover2/>
+    <HomeQuote/>
+    <HomeVisionmission/>
   </div>
 </template>
 
