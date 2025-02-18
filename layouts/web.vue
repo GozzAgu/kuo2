@@ -79,9 +79,9 @@
           <div class="mb-8 md:mb-0">
             <h3 class="text-xl font-bold mb-4">Contact Us</h3>
             <ul class="space-y-2">
-              <li class="text-gray-400">123 Industrial Park, City, Country</li>
-              <li class="text-gray-400">Email: info@kuosmart.com</li>
-              <li class="text-gray-400">Phone: +123 456 7890</li>
+              <li class="text-gray-400">No 85B, Elijiji Lane, Woji, Port-Harcourt, Rivers state, Nigeria.</li>
+              <li class="text-gray-400">Email: info@kuosmartsolution.com</li>
+              <li class="text-gray-400">Phone: (+234) 811 484 9757</li>
             </ul>
           </div>
 
