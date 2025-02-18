@@ -53,9 +53,7 @@
 
     <footer class="bg-gray-800 text-white py-12">
       <div class="max-w-6xl mx-auto px-4 md:px-8">
-        <!-- Footer Grid -->
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <!-- About Section -->
           <div class="mb-8 md:mb-0">
             <h3 class="text-xl font-bold mb-4">About KUO</h3>
             <p class="text-gray-400 leading-relaxed">
@@ -63,7 +61,6 @@
             </p>
           </div>
 
-          <!-- Quick Links -->
           <div class="mb-8 md:mb-0">
             <h3 class="text-xl font-bold mb-4">Quick Links</h3>
             <ul class="space-y-2">
@@ -75,7 +72,6 @@
             </ul>
           </div>
 
-          <!-- Contact Information -->
           <div class="mb-8 md:mb-0">
             <h3 class="text-xl font-bold mb-4">Contact Us</h3>
             <ul class="space-y-2">
@@ -85,7 +81,6 @@
             </ul>
           </div>
 
-          <!-- Social Media Links -->
           <div>
             <h3 class="text-xl font-bold mb-4">Follow Us</h3>
             <div class="flex space-x-4">
@@ -113,7 +108,6 @@
           </div>
         </div>
 
-        <!-- Copyright Notice -->
         <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
           &copy; 2023 KUO Smart Solutions. All rights reserved.
         </div>
@@ -126,10 +120,18 @@
 import { ref } from 'vue';
 
 const isMobileMenuOpen = ref(false);
+const route = useRoute()
 
 const toggleMobileMenu = () => {
   isMobileMenuOpen.value = !isMobileMenuOpen.value;
 };
+
+watch(
+  () => route.path,
+  () => {
+    isMobileMenuOpen.value = false;
+  }
+);
 </script>
 
 <style scoped>
