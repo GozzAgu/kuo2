@@ -44,7 +44,6 @@
         <router-link to="/" class="nav-link" active-class="active-link">Home</router-link>
         <router-link to="/about" class="nav-link" active-class="active-link">About Us</router-link>
         <router-link to="/services" class="nav-link" active-class="active-link">Services</router-link>
-        <router-link to="/projects" class="nav-link" active-class="active-link">Projects</router-link>
         <router-link to="/contact" class="nav-link" active-class="active-link">Contact</router-link>
         <router-link to="/get-started" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-300 text-center">
           Get Started
