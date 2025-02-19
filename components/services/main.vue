@@ -142,24 +142,6 @@
         </div>
       </div>
     </div>
-
-    <div class="bg-gray-50 py-16 mt-24">
-        <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">Frequently Asked Questions</h2>
-        <div class="max-w-2xl mx-auto text-gray-600">
-          <div class="mb-4">
-            <h3 class="text-xl font-semibold text-gray-800">What industries do you serve?</h3>
-            <p>We provide services across various industries, including oil and gas, manufacturing, construction, and commercial sectors.</p>
-          </div>
-          <div class="mb-4">
-            <h3 class="text-xl font-semibold text-gray-800">Do you offer emergency services?</h3>
-            <p>Yes, we offer 24/7 emergency response for critical system installations and repairs.</p>
-          </div>
-          <div class="mb-4">
-            <h3 class="text-xl font-semibold text-gray-800">How can I get in touch for a consultation?</h3>
-            <p>You can contact us through our website or give us a call at the number provided in the contact section below.</p>
-          </div>
-        </div>
-      </div>
   </div>
 </template>
 
