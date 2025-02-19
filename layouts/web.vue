@@ -113,7 +113,7 @@
         </div>
 
         <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          &copy; 2023 KUO Smart Solutions. All rights reserved.
+          &copy; 2025 KUO Smart Solutions. All rights reserved.
         </div>
       </div>
     </footer>
