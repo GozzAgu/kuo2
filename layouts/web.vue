@@ -2,14 +2,19 @@
   <div>
     <nav class="px-4 md:px-8 max-w-6xl py-4 border-b flex justify-between items-center mx-auto">
       <div class="text-xl font-bold text-gray-800">
-        <router-link to="/">KUO Smart Solutions</router-link>
+        <router-link to="/">
+          <img
+            src="/public/kuologo.png"
+            alt="LOGO"
+            class="w-24 md:w-32"
+          />
+        </router-link>
       </div>
 
       <div class="hidden md:flex space-x-8">
         <router-link to="/" class="nav-link" active-class="active-link">Home</router-link>
         <router-link to="/about" class="nav-link" active-class="active-link">About Us</router-link>
         <router-link to="/services" class="nav-link" active-class="active-link">Services</router-link>
-        <router-link to="/projects" class="nav-link" active-class="active-link">Projects</router-link>
         <router-link to="/contact" class="nav-link" active-class="active-link">Contact</router-link>
       </div>
 
@@ -67,7 +72,6 @@
               <li><router-link to="/" class="text-gray-400 hover:text-blue-500 transition duration-300">Home</router-link></li>
               <li><router-link to="/about" class="text-gray-400 hover:text-blue-500 transition duration-300">About Us</router-link></li>
               <li><router-link to="/services" class="text-gray-400 hover:text-blue-500 transition duration-300">Services</router-link></li>
-              <li><router-link to="/projects" class="text-gray-400 hover:text-blue-500 transition duration-300">Projects</router-link></li>
               <li><router-link to="/contact" class="text-gray-400 hover:text-blue-500 transition duration-300">Contact</router-link></li>
             </ul>
           </div>

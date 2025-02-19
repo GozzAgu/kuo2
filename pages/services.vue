@@ -1,6 +1,8 @@
 <template>
-  <AboutHero/>
-  <AboutMain/>
+  <div>
+    <ServicesHero/>
+    <ServicesMain/>
+  </div>
 </template>
 
 <script lang="js">

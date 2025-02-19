@@ -1,20 +1,14 @@
 <template>
-  <div ref="heroSection" class="relative bg-gradient-to-r from-red-700 to-blue-700 h-[60vh] flex items-center justify-center text-white">
+  <div ref="servicesSection" class="relative bg-gradient-to-r from-red-700 to-blue-700 h-[60vh] flex items-center justify-center text-white">
     <div class="relative z-10 text-center px-6 md:px-12 max-w-4xl mx-auto">
       <h1 class="text-4xl md:text-5xl font-extrabold mb-4 transition-all duration-1000 ease-out transform opacity-0 translate-y-10"
         :class="{ 'opacity-100 translate-y-0': isVisible }">
-        Get in Touch With Us
+        Our Services
       </h1>
       <p class="text-lg md:text-xl max-w-2xl mx-auto transition-all duration-1000 ease-out transform opacity-0 translate-y-10 delay-200"
         :class="{ 'opacity-100 translate-y-0': isVisible }">
-        We are a company you can trust to deliver quality solutions
+        What we provide to our clients and customers
       </p>
-      <div class="mt-6 transition-all duration-1000 ease-out transform opacity-0 translate-y-10 delay-400"
-        :class="{ 'opacity-100 translate-y-0': isVisible }">
-        <a href="#contact-form" class="bg-white text-blue-700 font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300">
-          Learn more
-        </a>
-      </div>
     </div>
   </div>
 </template>
@@ -22,7 +16,7 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 
-const heroSection = ref(null);
+const servicesSection = ref(null);
 const isVisible = ref(false);
 
 onMounted(() => {
@@ -38,8 +32,8 @@ onMounted(() => {
     { threshold: 0.5 }
   );
 
-  if (heroSection.value) {
-    observer.observe(heroSection.value);
+  if (servicesSection.value) {
+    observer.observe(servicesSection.value);
   }
 });
 </script>

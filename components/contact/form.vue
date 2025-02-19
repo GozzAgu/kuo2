@@ -1,17 +1,14 @@
 <template>
-  <div class="bg-gradient-to-r from-blue-600 to-purple-600 py-16 px-4 sm:px-6 lg:px-8">
+  <div class="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto">
       <div class="text-center">
-        <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
-          Get in Touch
-        </h2>
-        <p class="mt-4 text-lg text-blue-100">
+        <h2 class="text-3xl font-extrabold text-gray-700 sm:text-4xl">Get in Touch</h2>
+        <p class="mt-4 text-lg text-gray-600">
           We'd love to hear from you! Reach out to us for any inquiries, collaborations, or just to say hello.
         </p>
       </div>
 
       <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <!-- Address -->
         <div class="text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
           <div class="flex justify-center">
             <svg class="h-8 w-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +22,6 @@
           </p>
         </div>
 
-        <!-- Phone -->
         <div class="text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
           <div class="flex justify-center">
             <svg class="h-8 w-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -39,7 +35,6 @@
           </p>
         </div>
 
-        <!-- Email -->
         <div class="text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
           <div class="flex justify-center">
             <svg class="h-8 w-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -49,18 +44,12 @@
           <h3 class="mt-4 text-xl font-semibold text-gray-800">Email Us</h3>
           <p class="mt-2 text-gray-600">
             info@kuosmartsolution.com<br>
-            slaes@kuosmartsolution.com<br>
+            sales@kuosmartsolution.com<br>
             support@kuosmartsolution.com
           </p>
         </div>
 
-        <!-- Social Media -->
         <div class="text-center bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-          <div class="flex justify-center">
-            <svg class="h-8 w-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-            </svg>
-          </div>
           <h3 class="mt-4 text-xl font-semibold text-gray-800">Follow Us</h3>
           <div class="mt-4 flex justify-center space-x-4">
             <a href="#" class="text-gray-600 hover:text-blue-600">
@@ -80,10 +69,40 @@
       </div>
     </div>
   </div>
+
+  <section class="bg-white py-16 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto">
+      <h3 class="text-2xl font-bold text-gray-800 text-center">Send Us a Message</h3>
+      <form class="mt-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <input type="text" placeholder="Full Name" class="w-full p-3 border rounded-lg focus:ring focus:ring-blue-300" required>
+          <input type="email" placeholder="Email Address" class="w-full p-3 border rounded-lg focus:ring focus:ring-blue-300" required>
+        </div>
+        <input type="text" placeholder="Subject" class="w-full p-3 border rounded-lg mt-4 focus:ring focus:ring-blue-300" required>
+        <textarea rows="5" placeholder="Your Message" class="w-full p-3 border rounded-lg mt-4 focus:ring focus:ring-blue-300" required></textarea>
+        <button type="submit" class="mt-6 w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto">
+      <h3 class="text-2xl font-bold text-gray-800 text-center mb-6">Find Us Here</h3>
+      <div class="rounded-lg overflow-hidden shadow-lg">
+        <iframe
+          class="w-full h-96"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.7626932203685!2d7.012478414294331!3d4.850387842309707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cd57c3d4691d%3A0x6f5c6e60a445b20c!2sWoji%2C%20Port%20Harcourt%2C%20Rivers%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1642024158442!5m2!1sen!2sng">
+        </iframe>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script setup>
-
 </script>
 
 <style scoped>
