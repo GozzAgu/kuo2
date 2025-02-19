@@ -1,20 +1,24 @@
 <template>
   <div class="bg-white py-16 md:py-24">
     <div class="max-w-6xl mx-auto px-4 md:px-8">
-      <div class="text-center mb-12">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-          Our Services
-        </h2>
-        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-          We provide a comprehensive range of engineering and technical services to meet your industrial and commercial needs.
+      <div class="my-16">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Why Choose Us?</h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-6 text-center">
+          With years of industry experience, a dedicated team, and a customer-first approach, we provide reliable, efficient, and cost-effective solutions.
         </p>
+        <ul class="text-lg text-gray-600 list-inside list-disc max-w-2xl mx-auto">
+          <li>Experienced professionals with in-depth industry knowledge.</li>
+          <li>Proven track record of successful project execution.</li>
+          <li>Focus on quality, safety, and sustainability.</li>
+          <li>Customer-centric solutions tailored to your needs.</li>
+        </ul>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
-              src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              src="/engserv.jpg"
               alt="Engineering Services"
               class="w-full h-48 object-cover rounded-md mb-4"
             />
@@ -42,7 +46,7 @@
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
-              src="https://images.unsplash.com/photo-1615874959474-df5457c7c8e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              src="/gasinstall.jpg"
               alt="Fire & Gas Systems Installation"
               class="w-full h-48 object-cover rounded-md mb-4"
             />
@@ -56,7 +60,7 @@
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
-              src="https://images.unsplash.com/photo-1631715001364-9a7700cdb123?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+              src="/gasmeter.jpg"
               alt="Oil & Gas Metering Services"
               class="w-full h-48 object-cover rounded-md mb-4"
             />
@@ -70,7 +74,7 @@
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
-              src="https://images.unsplash.com/photo-1609342122563-a43ac8917a3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              src="/hvac.jpg"
               alt="HVAC Systems"
               class="w-full h-48 object-cover rounded-md mb-4"
             />
@@ -84,7 +88,7 @@
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
-              src="https://images.unsplash.com/photo-1615992174118-9b8e9be025e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              src="/valves.jpg"
               alt="Valves & Actuation"
               class="w-full h-48 object-cover rounded-md mb-4"
             />
@@ -126,7 +130,7 @@
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
-              src="https://images.unsplash.com/photo-1535395153836-338e3d9f1c4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              src="/logistics.jpg"
               alt="Logistics"
               class="w-full h-48 object-cover rounded-md mb-4"
             />
@@ -138,6 +142,24 @@
         </div>
       </div>
     </div>
+
+    <div class="bg-gray-50 py-16 mt-24">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">Frequently Asked Questions</h2>
+        <div class="max-w-2xl mx-auto text-gray-600">
+          <div class="mb-4">
+            <h3 class="text-xl font-semibold text-gray-800">What industries do you serve?</h3>
+            <p>We provide services across various industries, including oil and gas, manufacturing, construction, and commercial sectors.</p>
+          </div>
+          <div class="mb-4">
+            <h3 class="text-xl font-semibold text-gray-800">Do you offer emergency services?</h3>
+            <p>Yes, we offer 24/7 emergency response for critical system installations and repairs.</p>
+          </div>
+          <div class="mb-4">
+            <h3 class="text-xl font-semibold text-gray-800">How can I get in touch for a consultation?</h3>
+            <p>You can contact us through our website or give us a call at the number provided in the contact section below.</p>
+          </div>
+        </div>
+      </div>
   </div>
 </template>
 
