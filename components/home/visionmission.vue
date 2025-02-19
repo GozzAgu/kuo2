@@ -11,12 +11,9 @@
         </p>
       </div>
 
-      <!-- Grid Layout -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-        <!-- Vision Card -->
-        <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+        <div class="bg-gradient-to-r from-purple-400 to-pink-500 p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
-            <!-- Icon or Image for Vision -->
             <img
               src="https://cdn-icons-png.flaticon.com/512/1995/1995485.png"
               alt="Vision"
@@ -29,10 +26,8 @@
           </div>
         </div>
 
-        <!-- Mission Card -->
-        <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+        <div class="bg-gradient-to-r from-green-400 to-blue-500 p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
-            <!-- Icon or Image for Mission -->
             <img
               src="https://cdn-icons-png.flaticon.com/512/1995/1995488.png"
               alt="Mission"

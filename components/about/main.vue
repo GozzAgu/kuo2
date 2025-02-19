@@ -10,31 +10,31 @@
         </p>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+        <div class="bg-gradient-to-r from-purple-400 to-pink-500 p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
-              src="https://images.unsplash.com/photo-1603793303277-1f7e3f06b210?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
-              alt="Our Mission"
-              class="w-full h-48 object-cover rounded-md mb-4"
+              src="https://cdn-icons-png.flaticon.com/512/1995/1995485.png"
+              alt="Vision"
+              class="w-16 h-16 mx-auto mb-6"
             />
-            <h3 class="text-xl font-semibold text-gray-800 mb-3">Our Mission</h3>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Vision</h3>
             <p class="text-gray-700 leading-relaxed">
-              To be our client’s best partner in providing systems that work.
+              To be the global leader in providing innovative and sustainable industrial solutions, empowering businesses to achieve their full potential through cutting-edge technology and unparalleled expertise.
             </p>
           </div>
         </div>
 
-        <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+        <div class="bg-gradient-to-r from-green-400 to-blue-500 p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
-              src="https://images.unsplash.com/photo-1517245386807-9b4d0e2fe302?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80"
-              alt="Our Vision"
-              class="w-full h-48 object-cover rounded-md mb-4"
+              src="https://cdn-icons-png.flaticon.com/512/1995/1995488.png"
+              alt="Mission"
+              class="w-16 h-16 mx-auto mb-6"
             />
-            <h3 class="text-xl font-semibold text-gray-800 mb-3">Our Vision</h3>
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Our Mission</h3>
             <p class="text-gray-700 leading-relaxed">
-              We exist to apply technical solutions to human challenges in our fields of endeavor towards an efficient and safe world.
+              To deliver exceptional value to our customers by providing high-quality products, services, and solutions tailored to their unique needs. We are committed to fostering long-term partnerships, driving innovation, and ensuring sustainable growth for all stakeholders.
             </p>
           </div>
         </div>
@@ -46,7 +46,10 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
-          <h3 class="text-xl font-semibold text-gray-800 mb-3">Safety</h3>
+          <h3 class="text-xl font-semibold text-gray-800 mb-3">
+            <span></span>
+            Safety
+          </h3>
           <p class="text-gray-700 leading-relaxed">
             We understand that grit can make the difference in whether a project succeeds or fails. Therefore, we have a collection of talents that are equipped to handle difficult challenges.
           </p>
@@ -90,6 +93,12 @@
     </div>
   </div>
 </template>
+
+<script setup>
+</script>
+
+<style scoped>
+</style>
 
 <script setup>
 </script>

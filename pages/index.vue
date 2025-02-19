@@ -3,9 +3,9 @@
     <HomeHero/>
     <HomeDiscover/>
     <HomeDiscover2/>
-    <HomeProducts/>
-    <HomeQuote/>
     <HomeVisionmission/>
+    <HomeQuote/>
+    <HomeProducts/>
   </div>
 </template>
 

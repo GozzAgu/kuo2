@@ -11,7 +11,6 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Service 1: Engineering Services -->
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
@@ -26,7 +25,6 @@
           </div>
         </div>
 
-        <!-- Service 2: LV/MV Electrical System Installation -->
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
@@ -41,7 +39,6 @@
           </div>
         </div>
 
-        <!-- Service 3: Fire & Gas Systems Installation -->
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
@@ -56,7 +53,6 @@
           </div>
         </div>
 
-        <!-- Service 4: Oil & Gas Metering Services -->
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
@@ -71,7 +67,6 @@
           </div>
         </div>
 
-        <!-- Service 5: HVAC Systems -->
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
@@ -86,7 +81,6 @@
           </div>
         </div>
 
-        <!-- Service 6: Valves & Actuation (Installation & Maintenance) -->
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
@@ -101,7 +95,6 @@
           </div>
         </div>
 
-        <!-- Service 7: Procurement -->
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
@@ -116,7 +109,6 @@
           </div>
         </div>
 
-        <!-- Service 8: Environmental Services -->
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
@@ -131,7 +123,6 @@
           </div>
         </div>
 
-        <!-- Service 9: Logistics -->
         <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
           <div class="text-center">
             <img
@@ -151,9 +142,9 @@
 </template>
 
 <script setup>
-// You can add any necessary logic or data here
+
 </script>
 
 <style scoped>
-/* Add custom styles if needed */
+
 </style>

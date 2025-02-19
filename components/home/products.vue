@@ -10,7 +10,9 @@
 
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <div v-for="product in products" :key="product.id" class="bg-white p-4 rounded-lg">
-          <img :src="product.image" alt="Product image" class="w-full h-32 object-contain mb-4">
+          <a :href="product.link" target="_blank">
+            <img :src="product.image" alt="Product image" class="w-full h-32 object-contain mb-4">
+          </a>
           <h4 class="font-semibold text-gray-900">{{ product.name }}</h4>
           <p class="text-gray-600 text-sm">{{ product.description }}</p>
           <p class="text-gray-500 text-xs mt-2">MOQ: <span class="font-medium">{{ product.moq }}</span></p>
@@ -22,12 +24,12 @@
 
 <script setup>
 const products = [
-  { id: 1, name: "Plastic seal + nylon insert", description: "Tamper proof high security cable seal", moq: "1,000 Pieces", image: "https://via.placeholder.com/100" },
-  { id: 2, name: "Cable seal", description: "Tamper evident plastic security seal for container", moq: "1,000 Pieces", image: "https://via.placeholder.com/100" },
-  { id: 3, name: "Plastic seal + metal insert", description: "High quality security cable safety locks container seal", moq: "1,000 Pieces", image: "https://via.placeholder.com/100" },
-  { id: 4, name: "Cable seal", description: "ABS + steel line", moq: "1,000 Pieces", image: "https://via.placeholder.com/100" },
-  { id: 5, name: "Cable seal", description: "Alloy + steel line", moq: "1,000 Pieces", image: "https://via.placeholder.com/100" },
-  { id: 6, name: "Plastic seal + metal locking", description: "PP + steel", moq: "1,000 Pieces", image: "https://via.placeholder.com/100" },
+  { id: 1, name: "Plastic seal + nylon insert", description: "Tamper proof high security cable seal", moq: "1,000 Pieces", image: "/pn.webp", link: "https://www.instagram.com/kuosmartsolutionshq/" },
+  { id: 2, name: "Cable seal", description: "Tamper evident plastic security seal for container", moq: "1,000 Pieces", image: "/cs.webp", link: "https://www.instagram.com/kuosmartsolutionshq/" },
+  { id: 3, name: "Plastic seal + metal insert", description: "High quality security cable safety locks container seal", moq: "1,000 Pieces", image: "/pmi.webp", link: "https://www.instagram.com/kuosmartsolutionshq/" },
+  { id: 4, name: "Cable seal", description: "ABS + steel line", moq: "1,000 Pieces", image: "/cs+s.webp", link: "https://www.instagram.com/kuosmartsolutionshq/" },
+  { id: 5, name: "Cable seal", description: "Alloy + steel line", moq: "1,000 Pieces", image: "/csalloy.webp", link: "https://www.instagram.com/kuosmartsolutionshq/" },
+  { id: 6, name: "Plastic seal + metal locking", description: "PP + steel", moq: "1,000 Pieces", image: "/pml.webp", link: "https://www.instagram.com/kuosmartsolutionshq/" },
 ];
 </script>
 
